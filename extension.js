@@ -24,7 +24,6 @@ function activate(context) {
 	function () {
 	
 		const file = fs.createWriteStream('/Users/talak/test.json');
-			
 
 		vscode.languages.registerHoverProvider(["*"], {
 			provideHover(document, position, token) {
